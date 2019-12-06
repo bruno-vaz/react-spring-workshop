@@ -14,10 +14,14 @@ const Dialog2Container = () => {
         label="Abrir diálogo 2 (useTransition)"
         onClick={() => setDialogOpen(true)}
       />
-      <Dialog2
-        isOpen={dialogOpen}
-        handleClose={() => setDialogOpen(false)}
-      />
+      {
+        dialogOpen
+        && (
+          <Dialog2
+            handleClose={() => setDialogOpen(false)}
+          />
+        )
+      }
     </section>
   );
 };

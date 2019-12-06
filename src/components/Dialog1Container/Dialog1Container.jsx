@@ -14,10 +14,14 @@ const Dialog1Container = () => {
         label="Abrir diálogo 1 (useSpring)"
         onClick={() => setDialogOpen(true)}
       />
-      <Dialog1
-        isOpen={dialogOpen}
-        handleClose={() => setDialogOpen(false)}
-      />
+      {
+        dialogOpen
+        && (
+          <Dialog1
+            handleClose={() => setDialogOpen(false)}
+          />
+        )
+      }
     </section>
   );
 };
