@@ -41,6 +41,7 @@
     "react-intersection-observer": "^8.24.2",
     "react-responsive": "^8.0.1",
     "react-spring": "^8.0.27",
+    "react-use-gesture": "^6.0.14",
     "use-interval": "^1.1.0"
   },
   "devDependencies": {
