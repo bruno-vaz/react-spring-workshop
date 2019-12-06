@@ -5,7 +5,7 @@ const Deck = () => (
     src="https://codesandbox.io/embed/clever-pine-o46ts?autoresize=1&fontsize=14&hidenavigation=1&theme=dark&view=preview"
     style={{
       width: '100%',
-      height: '100%',
+      height: '100vh',
       border: 0,
       borderRadius: 4,
       overflow: 'hidden',

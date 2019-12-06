@@ -10,4 +10,7 @@
   > .main {
     flex: 1 0 auto;
   }
+  > .main > *:nth-child(even) {
+    background-color: var(--brand-lighter);
+  }
 }

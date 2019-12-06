@@ -73,10 +73,8 @@
     background: none;
     border: 0;
     outline: none;
+    color: var(--white);
     font-size: 32px;
     font-weight: 700;
-    will-change: color;
-    transition: var(--transition-default);
-    transition-property: color;
   }
 }
